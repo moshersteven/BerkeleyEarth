@@ -7,7 +7,7 @@ readStationChange <- function(Directory, filename= "station_change.txt"){
 
    colnames(X)<- c("Id","EventNo", "Date","ChangeType")
 
-    
+     
 
  return(X)
 

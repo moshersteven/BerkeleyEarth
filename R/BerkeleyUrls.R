@@ -1,5 +1,3 @@
- 
- 
 
 BerkeleyUrls <-  data.frame( Url= c("http://berkeleyearth.lbl.gov/downloads/TAVG/LATEST%20-%20Non-seasonal%20_%20Quality%20Controlled.zip",
                                     "http://berkeleyearth.lbl.gov/downloads/TAVG/LATEST%20-%20Quality%20Controlled.zip",

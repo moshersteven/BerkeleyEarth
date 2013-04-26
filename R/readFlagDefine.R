@@ -7,5 +7,6 @@ readFlagDefine <- function(Directory, filename= "data_flag_definitions.txt") {
   
   colnames(X)<- c("Flag","Description")
   X$Flag <- as.integer(sub(":","",X$Flag))
+  
   return(X) 
 }

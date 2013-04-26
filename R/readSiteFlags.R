@@ -1,5 +1,6 @@
 readSiteFlags  <- function(Directory, filename= "site_flags.txt") {
   
+  
   X <- read.delim(file.path(Directory,filename, fsep =.Platform$file.sep), 
                   comment.char = "%",                    
                   header = FALSE,                 

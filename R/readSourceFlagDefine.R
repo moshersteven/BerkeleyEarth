@@ -7,6 +7,6 @@ readSourceFlagDefine <- function(Directory, filename= "source_flag_definitions.t
   
   colnames(X)<- c("Flag","Description")
   X$Flag <- as.integer(sub(":","",X$Flag))
-  
+   
   return(X)
 }
